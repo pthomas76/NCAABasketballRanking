@@ -2,6 +2,8 @@
 
 ### Introduction/Background 
 
+As a group, we have a strong interest in sports, and wanted to utilize this opportunity to work with the basketball statistics from the 2013-2021 Division 1 college basketball seasons. A college basketball season is broken down into a few segments: non-conference play, conference play, conference tournaments and postseason tournaments. The number of games in conference play varies by conference with the ACC, Big Sky, Big Ten, MAAC, Southland and Sun Belt conferences playing 20-game schedules in 2019-2020 and the Ivy League playing a national-low 14 conference games. The vast amount of game time per season generates several important statistics and performance metrics that we can leverage to determine the quality of each team relative to their opposition and other teams in the nation. 
+
 ### Problem Definition
 
 In the NCAA, the winner of the basketball tournament is the college team (from Division 1) that scores the most points. Using a dataset, factors such as number of games played, wins, offensive/defensive efficiency, rebound rate, turnover rate and free throw rate, will be used to create a team ranking system for each season. The goal of this project is to predict the top 10 teams over multiple seasons by evaluating the efficiency of the system. 
