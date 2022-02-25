@@ -1,8 +1,8 @@
 ## NCAA Division 1 College Basketball Team Ranker
 
-### Introduction/Background 
+### Introduction/Background
 
-As a group, we have a strong interest in sports and wanted to utilize this opportunity to work with the basketball statistics from the 2013-2021 Division 1 college basketball seasons. The first NCAA Division 1 men’s basketball tournament was played in 1939. The average men’s D1 team plays 35-40 games in a normal season, and then a select few more in the postseason. In 2018 and 2019, there were more than 5,800 games played. A college basketball season is broken down into a few segments: non-conference play, conference play, conference tournaments, and postseason tournaments. The number of games in conference play varies by conference with the ACC, Big Sky, Big Ten, MAAC, Southland, and Sun Belt conferences playing 20-game schedules in 2019-2020 and the Ivy League playing a national-low 14 conference games. The vast amount of game time per season generates several important statistics and performance metrics that we can leverage to determine the quality of each team relative to their opposition and other teams in the nation.
+We have a strong interest in sports and wanted to utilize this opportunity to work with the basketball statistics from the 2013-2021 Division 1 college basketball seasons. The first NCAA Division 1 men’s basketball tournament was played in 1939 and the average men’s D1 team plays 35-40 games in a normal season. A college basketball season is broken down into a few segments: non-conference play, conference play, conference tournaments, and postseason tournaments. The number of games in conference play varies by conference with the ACC, Big Sky, Big Ten, MAAC, Southland, and Sun Belt conferences playing 20-game schedules in 2019-2020 and the Ivy League playing a national-low 14 conference games. The vast amount of game time per season generates several important statistics and performance metrics that we can leverage to determine the quality of each team relative to their opposition and other teams in the nation.
 
 ### Problem Definition
 
@@ -18,7 +18,7 @@ Having access to data like a win to lose ratio and different statistics of the p
 
 ### Discussion
 
-We hope to predict the next top 10 NCAA Division I basketball teams in the country over multiple seasons. This might also shed light on which college is more likely to produce future stars of basketball to play in the NBA. The data we produce might also be able to help predict league and playoff results between different college basketball teams.
+We hope to predict the next top 10 NCAA Division I basketball teams in the country over multiple seasons. The data we generate can not only help predict league and playoff results between different college basketball teams but also pick teams likely to produce future NBA players.
 
 ### References
 
