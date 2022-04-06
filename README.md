@@ -40,19 +40,28 @@ Offensive Rebound Rate
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
 
-![plot](regression_images/ADJOE_VS_W_G.png)
+![plot](regression_images/ADJOE_VS_W_G.png =250x250)
+
 Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team: This is a good feature to be selected as it has an increasing slope without many outliers.
 
+
 ![plot](regression_images/EFG_O_VS_W_G.png)
+
 Effective Field Goal Percentage Shot: This is one of the average features to be selected among the five most significant features we have. It has an increasing trend. The number of outliers is higher than Adjusted Offensive Efficiency and Wins Above Bubble.
 
+
 ![plot](regression_images/ORB_VS_W_G.png)
+
 Offensive Rebound Rate: This is the worst feature among the five best features we selected. It has an increasing trend and the number of outliers is high.
 
+
 ![plot](regression_images/TOR_VS_W_G.png)
+
 Turnover Percentage Allowed (Turnover Rate): This is the second worst feature among the five features we selected. It is the only feature we selected with a downward slope. It has a high number of outliers.
 
+
 ![plot](regression_images/WAB_VS_W_G.png)
+
 Wins Above Bubble (The bubble refers to the cut off between making the NCAA March Madness Tournament and not): This is the best feature we selected. It has an upward trend with a good line of best fit. It has the least number of outliers among all the features.
 
 Then, we utilize the top features from forward selection as the input features for our model. We split our dataset into a training and testing dataset with a ratio of 4:1 between training and testing data. 
