@@ -36,6 +36,7 @@ We found that
 3. Effective Field Goal Percentage Shot
 4. Turnover Percentage Allowed (Turnover Rate)
 5. Offensive Rebound Rate
+
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
 
