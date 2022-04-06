@@ -40,7 +40,7 @@ Offensive Rebound Rate
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
 
-![plot](regression_images/ADJOE_VS_W_G.png =250x250)
+![plot](regression_images/ADJOE_VS_W_G.png =200x250)
 
 Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team: This is a good feature to be selected as it has an increasing slope without many outliers.
 
