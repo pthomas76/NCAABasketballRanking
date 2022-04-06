@@ -40,6 +40,8 @@ We found that
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
 
+![plot](regression_images/EFG_O_VS_W_G.png)
+
 Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team: This is a good feature to be selected as it has an increasing slope without many outliers.
 
 
