@@ -39,26 +39,27 @@ Offensive Rebound Rate
 
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
-![plot](regression_images/LvNRS.png)
 
+![plot](regression_images/ADJOE_VS_W_G.png)
 Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team: This is a good feature to be selected as it has an increasing slope without many outliers.
 
-
+![plot](regression_images/EFG_O_VS_W_G.png)
 Effective Field Goal Percentage Shot: This is one of the average features to be selected among the five most significant features we have. It has an increasing trend. The number of outliers is higher than Adjusted Offensive Efficiency and Wins Above Bubble.
 
-
+![plot](regression_images/ORB_VS_W_G.png)
 Offensive Rebound Rate: This is the worst feature among the five best features we selected. It has an increasing trend and the number of outliers is high.
 
-
+![plot](regression_images/TOR_VS_W_G.png)
 Turnover Percentage Allowed (Turnover Rate): This is the second worst feature among the five features we selected. It is the only feature we selected with a downward slope. It has a high number of outliers.
 
-
+![plot](regression_images/WAB_VS_W_G.png)
 Wins Above Bubble (The bubble refers to the cut off between making the NCAA March Madness Tournament and not): This is the best feature we selected. It has an upward trend with a good line of best fit. It has the least number of outliers among all the features.
 
 Then, we utilize the top features from forward selection as the input features for our model. We split our dataset into a training and testing dataset with a ratio of 4:1 between training and testing data. 
 
 Given that we have an output value for each set of features, we can perform supervised learning, specifically Regression, to try and predict a dependent variable, the win rate, given the independent variable, being the selected input features. We chose an Ordinary Least Square Linear Regression model to map the relationship between the input features and the dependent variable. This method works by minimizing the mean squared error in the model by using a closed form solution to solve for the parameters. We fit an Ordinary Least Squares Linear Regression model to this dataset and find that it performs decently well in predicting the win rate. After training our model using the training dataset, we find that it achieves a high R^2 coefficient of 0.985. Another important statistic for this model is the F-statistic which tests a null hypothesis that the model with no independent variables fits the data as well as the learned model. We find that when performing this test, we can undoubtedly reject the null hypothesis in favor of an alternative hypothesis that our model fits the data better than an intercept only model, with a F_statistic of 2.553e+04, p < .01. We also plot the influence of each of the residuals in the model to show the balanced influence of each of the data points on the model without any glaring outliers that could bias it.
 
+![plot](regression_images/LvNRS.png)
 
 In order to see how well the model generalizes to unseen data, we test the model on the reserved test dataset to see how well it performs. We find that there is a performance decline with a R^2 score on the test dataset being 0.875 and the explained variance score, which takes into account the mean of the error, is 0.875. We look at the explained variance score to see if our model is an unbiased estimator which in this case it is since the mean of the residuals is almost 0.
 
