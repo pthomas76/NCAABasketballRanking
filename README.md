@@ -36,11 +36,10 @@ Wins Above Bubble (The bubble refers to the cut off between making the NCAA Marc
 Effective Field Goal Percentage Shot
 Turnover Percentage Allowed (Turnover Rate)
 Offensive Rebound Rate
-
 were the most relevant features when trying to predict the win rate of a given team. Below are regression plots of each of the features compared to our dependent variable, the win rate.
 
 
-![plot](regression_images/ADJOE_VS_W_G.png){:height="36px" width="36px"}
+![plot](regression_images/ADJOE_VS_W_G.png)
 
 Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team: This is a good feature to be selected as it has an increasing slope without many outliers.
 
