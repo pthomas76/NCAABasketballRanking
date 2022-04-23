@@ -107,6 +107,7 @@ Given that we trained both of our models on a dataset of NCAA College Basketball
 
 
 | Linear Regression Top 10 in 2021 |
+| --- |
 | TEAM | SCORE |
 | --- | --- |
 | Gonzaga | 1.016834 |
