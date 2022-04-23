@@ -105,6 +105,7 @@ The model achieves a training and test Mean Squared Error of ~0.003 suggesting t
 Given that we trained both of our models on a dataset of NCAA College Basketball statistics from 2013-2022, we tested our model on the NCAA College Basketball statistics of the 2021 season and found that our Linear Regression model does a decent job in identifying the top teams. Likewise, our Neural Network based model does quite well by identifying the highest performing teams with respect to the true top teams.
 
 Linear Regression Top 10 in 2021:
+
 | TEAM | SCORE |
 | --- | --- |
 | Gonzaga | 1.016834 |
@@ -119,6 +120,7 @@ Linear Regression Top 10 in 2021:
 | USC | 0.801104 |
 
 Multi-Layer Perceptron Top 10 in 2021:
+
 | TEAM | SCORE |
 | --- | --- |
 | Colgate | 0.933563 |
@@ -135,6 +137,7 @@ Multi-Layer Perceptron Top 10 in 2021:
 We compare this to the true outcome of the 2021 season.
 
 True Outcome of the 2021 Season:
+
 | TEAM | RANK |
 | --- | --- |
 | Gonzaga | 1 |
