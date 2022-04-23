@@ -104,10 +104,7 @@ The model achieves a training and test Mean Squared Error of ~0.003 suggesting t
 
 Given that we trained both of our models on a dataset of NCAA College Basketball statistics from 2013-2022, we tested our model on the NCAA College Basketball statistics of the 2021 season and found that our Linear Regression model does a decent job in identifying the top teams. Likewise, our Neural Network based model does quite well by identifying the highest performing teams with respect to the true top teams.
 
-
-
-| Linear Regression Top 10 in 2021 |
-| --- |
+Linear Regression Top 10 in 2021:
 | TEAM | SCORE |
 | --- | --- |
 | Gonzaga | 1.016834 |
@@ -122,31 +119,34 @@ Given that we trained both of our models on a dataset of NCAA College Basketball
 | USC | 0.801104 |
 
 Multi-Layer Perceptron Top 10 in 2021:
+| TEAM | SCORE |
+| --- | --- |
+| Colgate | 0.933563 |
+| Winthrop | 0.903266 |
+| Gonzaga | 0.898733 |
+| Drake | 0.861598 |
+| Loyola Chicago | 0.856498 |
+| Baylor | 0.848474 |
+| Illinois | 0.845733 |
+| Prairie View A&M | 0.844561 |
+| Abilene Christian | 0.840267 |
+| Belmont | 0.837822 |
 
-TEAM     SCORE
-Colgate  0.933563
-Winthrop  0.903266
-Gonzaga  0.898733
-Drake  0.861598
-Loyola Chicago  0.856498
-Baylor  0.848474
-Illinois  0.845733
-Prairie View A&M  0.844561
-Abilene Christian  0.840267
-Belmont  0.837822
+We compare this to the true outcome of the 2021 season.
 
-We compare this to the true outcome of the 2021 season
-
-Gonzaga
-Houston
-Kansas
-Arizona
-Baylor
-Villanova
-Tennessee
-Texas Tech
-Kentucky
-Duke
+True Outcome of the 2021 Season:
+| TEAM | RANK |
+| --- | --- |
+| Gonzaga | 1 |
+| Houston | 2 |
+| Kansas | 3 |
+| Arizona | 4 |
+| Baylor | 5 |
+| Villanova | 6 |
+| Tennessee | 7 |
+| Texas Tech | 8 |
+| Kentucky | 9 |
+| Duke | 10 |
 
 ### Summary
 
