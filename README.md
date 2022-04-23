@@ -161,6 +161,10 @@ We started the project with the goal of being able to predict the top 10 NCAA Di
 
 We could predict metrics of different NCAA Division I college basketball teams for future years based on previous years’ data using a Time Series model (which is not in the scope of this course).
 
+### Presentation Link
+
+
+
 ### References
 
 [1] Sarlis, V., & Tjortjis, C. (2020). Sports analytics — Evaluation of basketball players and team performance. In Information Systems (Vol. 93, p. 101562). Elsevier BV. https://doi.org/10.1016/j.is.2020.101562
