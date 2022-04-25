@@ -171,9 +171,10 @@ We believe that our accuracy could be improved with more training data and tunin
 
 We could predict metrics of different NCAA Division I college basketball teams for future years based on previous years’ data using a Time Series model (which is not in the scope of this course).
 
-### Presentation Link
+### Presentation
 
-
+<a href = "google.com">Presentation</a>
+<a href = "youtube.com">Video</a>
 
 ### References
 
