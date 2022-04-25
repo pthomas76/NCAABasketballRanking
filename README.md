@@ -183,7 +183,7 @@ We could predict metrics of different NCAA Division I college basketball teams f
 
 [2] Terner, Z., & Franks, A. (2021). Modeling Player and Team Performance in Basketball. In Annual Review of Statistics and Its Application (Vol. 8, Issue 1, pp. 1–23). Annual Reviews. <a href = "https://doi.org/10.1146/annurev-statistics-040720-015536">https://doi.org/10.1146/annurev-statistics-040720-015536</a>
 
-[3] Jain, S., & Kaur, H. (2017). Machine learning approaches to predict basketball game outcome. In 2017 3rd International Conference on Advances in Computing,Communication & Automation (ICACCA) (Fall). 2017 3rd International Conference on Advances in Computing,Communication & Automation (ICACCA) (Fall). IEEE. <a href = "https://doi.org/10.1109/icaccaf.2017.8344688">https://doi.org/10.1109/icaccaf.2017.8344688</a>
+[3] Jain, S., & Kaur, H. (2017). Machine learning approaches to predict basketball game outcome. In 2017 3rd International Conference on Advances in Computing,Communication & Automation (ICACCA) (Fall). IEEE. <a href = "https://doi.org/10.1109/icaccaf.2017.8344688">https://doi.org/10.1109/icaccaf.2017.8344688</a>
 
 ### Timeline
 
