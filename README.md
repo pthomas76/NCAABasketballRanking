@@ -174,6 +174,7 @@ We could predict metrics of different NCAA Division I college basketball teams f
 ### Presentation
 
 <a href = "https://docs.google.com/presentation/d/1X7EyMTWIie5NLZkmnq5PlEELvqNgRQ2N0nT8rXk4KRs/edit?usp=sharing">Presentation</a>
+
 <a href = "https://youtu.be/rQz09eQTU_s">Video</a>
 
 ### References
